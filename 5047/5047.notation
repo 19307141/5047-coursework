@@ -855,7 +855,7 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_VbmJJKjyEfC8AcFWuoJplg" y="15"/>
           </children>
           <element xmi:type="uml:CentralBufferNode" href="5047.uml#_VbfbcKjyEfC8AcFWuoJplg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VbliEajyEfC8AcFWuoJplg" x="295" y="48" width="181" height="61"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VbliEajyEfC8AcFWuoJplg" x="295" y="48" width="201" height="61"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnfZQajvEfC8AcFWuoJplg"/>
       </children>
