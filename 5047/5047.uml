@@ -126,11 +126,15 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_BLrBgqNzEfCFhtZoc9hgnw" name="reviewshop" type="_yLLd0KNyEfCFhtZoc9hgnw" association="_BLpzYKNzEfCFhtZoc9hgnw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_BLrBg6NzEfCFhtZoc9hgnw" name="customer" type="_30_Q4KNwEfCFhtZoc9hgnw" association="_BLpzYKNzEfCFhtZoc9hgnw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_YrvyoKjvEfC8AcFWuoJplg" name="Activity14" node="_q27wsKjvEfC8AcFWuoJplg _yRzm0KjvEfC8AcFWuoJplg _mzdewKjwEfC8AcFWuoJplg" group="_uNuGUKjvEfC8AcFWuoJplg">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_YrvyoKjvEfC8AcFWuoJplg" name="Activity14" node="_q27wsKjvEfC8AcFWuoJplg _yRzm0KjvEfC8AcFWuoJplg _mzdewKjwEfC8AcFWuoJplg _VbfbcKjyEfC8AcFWuoJplg" group="_uNuGUKjvEfC8AcFWuoJplg">
     <edge xmi:type="uml:ControlFlow" xmi:id="_6JacQKjvEfC8AcFWuoJplg" target="_yRzm0KjvEfC8AcFWuoJplg" source="_q27wsKjvEfC8AcFWuoJplg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_b1UrUKjyEfC8AcFWuoJplg" target="_VbfbcKjyEfC8AcFWuoJplg" source="_yRzm0KjvEfC8AcFWuoJplg"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_uNuGUKjvEfC8AcFWuoJplg" name="Customer" node="_yRzm0KjvEfC8AcFWuoJplg"/>
     <node xmi:type="uml:InitialNode" xmi:id="_q27wsKjvEfC8AcFWuoJplg" name="" outgoing="_6JacQKjvEfC8AcFWuoJplg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_yRzm0KjvEfC8AcFWuoJplg" name="Start Customer Registration" incoming="_6JacQKjvEfC8AcFWuoJplg" inPartition="_uNuGUKjvEfC8AcFWuoJplg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_yRzm0KjvEfC8AcFWuoJplg" name="Start Customer Registration" incoming="_6JacQKjvEfC8AcFWuoJplg" outgoing="_b1UrUKjyEfC8AcFWuoJplg" inPartition="_uNuGUKjvEfC8AcFWuoJplg"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_mzdewKjwEfC8AcFWuoJplg" name=""/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_VbfbcKjyEfC8AcFWuoJplg" name="Message to request customer registration form" incoming="_b1UrUKjyEfC8AcFWuoJplg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_VbgCgKjyEfC8AcFWuoJplg" value="1"/>
+    </node>
   </packagedElement>
 </uml:Model>
