@@ -855,12 +855,12 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_VbmJJKjyEfC8AcFWuoJplg" y="15"/>
           </children>
           <element xmi:type="uml:CentralBufferNode" href="5047.uml#_VbfbcKjyEfC8AcFWuoJplg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VbliEajyEfC8AcFWuoJplg" x="295" y="48" width="201" height="61"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VbliEajyEfC8AcFWuoJplg" x="295" y="48" width="201" height="81"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnfZQajvEfC8AcFWuoJplg"/>
       </children>
       <element xmi:type="uml:Activity" href="5047.uml#_YrvyoKjvEfC8AcFWuoJplg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnfZQqjvEfC8AcFWuoJplg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnfZQqjvEfC8AcFWuoJplg" width="841"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_nnfZQ6jvEfC8AcFWuoJplg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_nnfZRKjvEfC8AcFWuoJplg"/>
