@@ -137,4 +137,20 @@
       <upperBound xmi:type="uml:LiteralInteger" xmi:id="_VbgCgKjyEfC8AcFWuoJplg" value="1"/>
     </node>
   </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_VibMULl5EfC3S5tAs3h6pg" name="CustomerMobileApp">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_b73aoLl5EfC3S5tAs3h6pg" name="Login"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_XXBWcLl5EfC3S5tAs3h6pg" name="Cloud Connection Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hOhAALl5EfC3S5tAs3h6pg" client="_XXBWcLl5EfC3S5tAs3h6pg" supplier="_b73aoLl5EfC3S5tAs3h6pg" contract="_b73aoLl5EfC3S5tAs3h6pg"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_tSVXMLl5EfC3S5tAs3h6pg" client="_XXBWcLl5EfC3S5tAs3h6pg" supplier="_jMNbwLl5EfC3S5tAs3h6pg"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_jMNbwLl5EfC3S5tAs3h6pg" name="Authentication"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uby5oLl5EfC3S5tAs3h6pg" name="Authentication"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_289pcLl5EfC3S5tAs3h6pg" client="_jMNbwLl5EfC3S5tAs3h6pg" supplier="_uby5oLl5EfC3S5tAs3h6pg"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Mquy4Ll5EfC3S5tAs3h6pg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mq1gkLl5EfC3S5tAs3h6pg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
 </uml:Model>
